@@ -1,0 +1,80 @@
+body * {
+    box-sizing: border-box;
+    /* display: block; */
+    margin: 0%;
+    padding: 0.1%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer {
+    background-color: darksalmon;
+}
+
+header {
+    background-image: linear-gradient(black, purple, rgb(211, 158, 185));
+}
+
+header img {
+    margin: auto;
+    width: 5%;
+}
+
+header h1, header h2, h4 {
+    text-align: center;
+}
+
+header nav {
+    background-color: black;
+}
+
+nav li {
+    display: inline-block;
+}
+
+nav a {
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: wheat;
+    color: black;
+}
+
+main {
+    background-color: wheat;
+}
+
+.flexContainerRow {
+    display: flex;
+    flex-direction: row;
+}
+
+.bordeNegro {
+    padding: 1%;
+    border-style: solid;
+}
+
+table {
+    background: black;
+    width: 800px;
+}
+
+tr {
+    background: indianred;
+}
+
+td {
+    background: pink;
+}
+
+.textAlignCenter{
+    text-align: center;
+}
+
+.flexContainerColumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
